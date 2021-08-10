@@ -1,11 +1,8 @@
 package twitterapitest;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
-
-import static org.hamcrest.CoreMatchers.containsString;
-
-import static org.junit.Assert.assertThat;
+import org.testng.Assert;
 
 /**
  * Below are a few sample Twitter
@@ -21,7 +18,7 @@ public class TwitterTests extends TwitterTestSetUp {
         twitter.createTweet();
         tweet = twitter.getTweet();
 
-        assertThat(tweet,containsString("This tweet was created using rest assured"));
+        Assert.assertTrue(tweet.contains("This tweet was created using rest assured"));
     }
 
     @Test

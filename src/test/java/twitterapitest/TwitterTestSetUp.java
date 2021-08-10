@@ -2,7 +2,7 @@ package twitterapitest;
 
 import baselineurl.TwitterBaseUri;
 import io.restassured.RestAssured;
-import org.junit.Before;
+import org.testng.annotations.BeforeMethod;
 import restassurredresuablemethods.ReusableApiMethods;
 
 /**
@@ -16,7 +16,7 @@ public class TwitterTestSetUp {
     protected ReusableApiMethods twitter = new ReusableApiMethods();
     protected String tweet;
 
-    @Before
+    @BeforeMethod
     public  void setUpTwitterBaseUri () {
     RestAssured.baseURI = TwitterBaseUri.getTwitterBaseUrL();
     }

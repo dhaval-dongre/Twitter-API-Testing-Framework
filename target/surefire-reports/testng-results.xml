@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-09T22:46:56Z" name="Surefire suite" finished-at="2021-08-09T22:47:03Z" duration-ms="6910">
+    <groups>
+    </groups>
+    <test started-at="2021-08-09T22:46:56Z" name="Surefire test" finished-at="2021-08-09T22:47:03Z" duration-ms="6910">
+      <class name="twitterapitest.TwitterTests">
+        <test-method is-config="true" signature="setUpTwitterBaseUri()[pri:0, instance:twitterapitest.TwitterTests@3b94d659]" started-at="2021-08-09T18:46:57Z" name="setUpTwitterBaseUri" finished-at="2021-08-09T18:46:58Z" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTwitterBaseUri -->
+        <test-method signature="createNewTweet()[pri:0, instance:twitterapitest.TwitterTests@3b94d659]" started-at="2021-08-09T18:46:58Z" name="createNewTweet" finished-at="2021-08-09T18:47:01Z" duration-ms="3410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewTweet -->
+        <test-method is-config="true" signature="setUpTwitterBaseUri()[pri:0, instance:twitterapitest.TwitterTests@3b94d659]" started-at="2021-08-09T18:47:01Z" name="setUpTwitterBaseUri" finished-at="2021-08-09T18:47:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTwitterBaseUri -->
+        <test-method signature="deleteExistingTweet()[pri:0, instance:twitterapitest.TwitterTests@3b94d659]" started-at="2021-08-09T18:47:01Z" name="deleteExistingTweet" finished-at="2021-08-09T18:47:02Z" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExistingTweet -->
+        <test-method is-config="true" signature="setUpTwitterBaseUri()[pri:0, instance:twitterapitest.TwitterTests@3b94d659]" started-at="2021-08-09T18:47:02Z" name="setUpTwitterBaseUri" finished-at="2021-08-09T18:47:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTwitterBaseUri -->
+        <test-method signature="getRecentTweet()[pri:0, instance:twitterapitest.TwitterTests@3b94d659]" started-at="2021-08-09T18:47:02Z" name="getRecentTweet" finished-at="2021-08-09T18:47:03Z" duration-ms="1334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRecentTweet -->
+      </class> <!-- twitterapitest.TwitterTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
